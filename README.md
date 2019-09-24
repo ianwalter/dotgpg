@@ -17,5 +17,5 @@ Copies the GPG configuration in your home directory back to the repo:
 ./update.sh
 ```
 
-[dotfilesUrl]: https://github.com/ianwaler/dotfiles
+[dotfilesUrl]: https://github.com/ianwalter/dotfiles
 

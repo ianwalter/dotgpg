@@ -1,9 +1,9 @@
 # dotgpg
-> Ian's gpg configuration (part of [dotfiles][dotfilesUrl])
+> Ian's GPG configuration (part of [dotfiles][dotfilesUrl])
 
 ## Installation
 
-Copies gpg configuration to your home directory:
+Copies GPG configuration to your home directory:
 
 ```console
 ./install.sh
@@ -11,7 +11,7 @@ Copies gpg configuration to your home directory:
 
 ## Update
 
-Copies the gpg configuration in your home directory back to the repo:
+Copies the GPG configuration in your home directory back to the repo:
 
 ```console
 ./update.sh

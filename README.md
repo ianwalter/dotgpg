@@ -17,5 +17,14 @@ Copies the GPG configuration in your home directory back to the repo:
 ./update.sh
 ```
 
+## License
+
+Hippocratic License - See [LICENSE][licenseUrl]
+
+&nbsp;
+
+Created by [Ian Walter](https://ianwalter.dev)
+
 [dotfilesUrl]: https://github.com/ianwalter/dotfiles
+[licenseUrl]: https://github.com/ianwalter/dotgpg/blob/master/LICENSE
 

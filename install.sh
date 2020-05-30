@@ -13,7 +13,7 @@ isKeyImported=$(gpg --list-keys | grep FA34106C0F39E8FE6746B20A620EE9507EBB0399)
 if [[ $publicKey != '' && $isKeyImported == '' ]]; then
 
   # Import the public key from 1Password CLI into GnuPG.
-  gpg --import $publicKey
+  echo $publicKey | gpg --import
 
   # Import the private key from 1Password CLI into GnuPG.
   op get item gpg-private --fields notesPlain | gpg --allow-secret-key-import --import
